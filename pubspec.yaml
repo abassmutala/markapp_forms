@@ -1,0 +1,43 @@
+name: markapp_forms
+description: A new Flutter project.
+
+# Prevent accidental publishing to pub.dev.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.5 <4.0.0'
+
+dependencies:
+  cloud_firestore: ^4.13.1
+  firebase_core: ^2.22.0
+  flutter:
+    sdk: flutter
+  intl: ^0.18.1
+  lucide_icons: ^0.257.0
+  uuid: ^4.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Enable generation of localized Strings from arb files.
+  generate: true
+
+  assets:
+    # Add assets from the images directory to the application.
+    - assets/images/
+
+  fonts:
+    - family: ProductSans
+      fonts:
+        - asset: fonts/ProductSans/Product_Sans_Bold_Italic.ttf
+        - asset: fonts/ProductSans/Product_Sans_Bold.ttf
+        - asset: fonts/ProductSans/Product_Sans_Italic.ttf
+        - asset: fonts/ProductSans/Product_Sans_Regular.ttf

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "515006113624",
+    "project_id": "markapp-forms",
+    "storage_bucket": "markapp-forms.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:515006113624:android:119739b67ca8275f5a672d",
+        "android_client_info": {
+          "package_name": "com.markapp.markapp_forms"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTchA7w8JISBlr9SHoyq7xuDLW0ydnYhU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
